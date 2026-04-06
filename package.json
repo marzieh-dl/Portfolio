@@ -2,6 +2,7 @@
   "name": "Portfolio",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -43,6 +44,6 @@
     ]
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
