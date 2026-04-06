@@ -16,7 +16,7 @@
         <ULink
           v-for="link in navLinks"
           :key="link.to"
-          :to="link.to"
+          :to="localePath(link.to)"
           active-class="font-semibold"
         >
           {{ t(link.label) }}
@@ -49,4 +49,5 @@ import { navLinks } from '@/config/consts'
 
 const year = new Date().getFullYear()
 const { t } = useI18n()
+const localePath = useLocalePath()
 </script>

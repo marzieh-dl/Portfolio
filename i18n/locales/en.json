@@ -1,6 +1,42 @@
 {
   "home": "Home",
   "project": "Project",
+  "chat_with_me": {
+    "nav": "Chat with me",
+    "eyebrow": "Resume-based chat",
+    "title": "Chat with me",
+    "subtitle": "A quick way to learn the most important things about my experience, stack, languages, and current location.",
+    "helper": "Choose one of the default questions or type your own.",
+    "input_label": "Ask a question",
+    "input_placeholder": "Ask about my experience, stack, languages, or location",
+    "send": "Send",
+    "empty_title": "Start the conversation",
+    "empty_body": "Tap a question below to see an instant answer based on my resume.",
+    "you": "You",
+    "assistant": "Marzieh",
+    "questions": {
+      "experience": "How many years of experience do you have?",
+      "technologies": "What technologies do you work with?",
+      "languages": "What languages do you speak?",
+      "location": "Where are you now?"
+    },
+    "answers": {
+      "experience": "I have 6 years of frontend engineering experience building modern, scalable, and high-performance web applications.",
+      "technologies": "My main stack includes Angular, Vue, React, TypeScript, NgRx, Redux, TanStack Query, Vite, Next.js, testing workflows, component libraries, and CI/CD practices.",
+      "languages": "I speak English, German, Persian, and a bit of Turkish.",
+      "location": "I am currently based in Braunschweig, Germany.",
+      "react": "Yes. I have worked with React in production projects, including React and Next.js applications, and I have used it to build modern user-facing interfaces.",
+      "vue": "Yes. I have worked with Vue and Vue 3, including integrating Vue 3 with Vite and building clean, maintainable frontend experiences.",
+      "angular": "Yes. Angular is one of my strongest technologies. I have worked with it extensively and even migrated Angular 11 applications to Angular 15.",
+      "next": "Yes. I have built SSR applications with Next.js as part of my frontend work.",
+      "typescript": "Yes. TypeScript is one of my core strengths and part of my main day-to-day frontend stack.",
+      "ngrx": "Yes. I have hands-on experience with NgRx for state management in Angular applications.",
+      "redux": "Yes. I have worked with Redux as part of scalable frontend state management.",
+      "tanstack": "Yes. I have experience with TanStack Query as part of my modern frontend tooling.",
+      "vite": "Yes. I have integrated Vue 3 with Vite and used modern tooling to improve frontend performance and developer experience."
+    },
+    "fallback": "That topic is not in my default resume chat yet. Try asking about my years of experience, technologies, spoken languages, or where I am based."
+  },
   "aboutme": {
     "text": "You meet Marzieh, a Frontend Engineer with 6 years of experience turning ideas into fast, clean, and user-friendly web apps. She works mainly with Angular, Vue, and React, and she loves building interfaces that look good and feel good to use.\n\nShe has worked in both startups and larger companies across different industries—from fintech to consulting and B2B platforms. Along the way, she helped modernize legacy codebases, improve performance, and ship products used by hundreds of thousands of people.\n\nThis website is a simple static version for now, but she’s currently learning backend development so she can turn it into a fully dynamic web app in the next release.",
     "title": "About Me",
@@ -14,10 +50,12 @@
     "closing": "Every day, I aim to learn, build, and create meaningful digital experiences."
   },
   "about": "About me",
+  "contact_label": "Contact me",
   "contact": {
     "title": "Get in Touch",
     "subtitle": "You can always reach me through email or social platforms.",
-    "location": "Based in Germany"
+    "location": "Based in Germany",
+    "me": "Contact me"
   },
   "download_resume": " Download Resume in pdf",
   "all_right_reserved": "All rights reserved.",

@@ -7,14 +7,18 @@ export const navLinks: NavigationMenuItem[] = [
   },
   {
     label: 'about',
-    to: 'aboutme',
+    to: '/aboutme',
   },
   {
     label: 'project',
-    to: 'projects',
+    to: '/projects',
   },
   {
-    label: 'contact',
-    to: 'contact',
+    label: 'contact_label',
+    to: '/contact',
+  },
+  {
+    label: 'chat_with_me.nav',
+    to: '/chat-with-me',
   },
 ]

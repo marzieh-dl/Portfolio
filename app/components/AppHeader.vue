@@ -23,12 +23,15 @@
 <script setup lang="ts">
 import { navLinks } from '~/config/consts'
 import { useI18n } from 'vue-i18n'
+
+const localePath = useLocalePath()
 const { t } = useI18n()
 
 const translatedLinks = computed(() =>
   navLinks.map((link) => ({
     ...link,
     label: t(link.label as string),
+    to: localePath(link.to as string),
   }))
 )
 </script>

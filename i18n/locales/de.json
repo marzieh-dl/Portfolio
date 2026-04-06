@@ -1,6 +1,42 @@
 {
   "home": "Heim",
   "project": "Projekt",
+  "chat_with_me": {
+    "nav": "Chatte mit mir",
+    "eyebrow": "Lebenslauf-Chat",
+    "title": "Chatte mit mir",
+    "subtitle": "Ein schneller Weg, die wichtigsten Punkte zu meiner Erfahrung, meinem Stack, meinen Sprachen und meinem aktuellen Standort zu sehen.",
+    "helper": "Wähle eine Standardfrage oder schreibe deine eigene.",
+    "input_label": "Frage stellen",
+    "input_placeholder": "Frage nach Erfahrung, Stack, Sprachen oder Standort",
+    "send": "Senden",
+    "empty_title": "Starte das Gespräch",
+    "empty_body": "Tippe unten auf eine Frage, um direkt eine Antwort auf Basis meines Lebenslaufs zu sehen.",
+    "you": "Du",
+    "assistant": "Marzieh",
+    "questions": {
+      "experience": "Wie viele Jahre Erfahrung hast du?",
+      "technologies": "Mit welchen Technologien arbeitest du?",
+      "languages": "Welche Sprachen sprichst du?",
+      "location": "Wo bist du gerade?"
+    },
+    "answers": {
+      "experience": "Ich habe 6 Jahre Erfahrung als Frontend-Entwicklerin im Aufbau moderner, skalierbarer und leistungsstarker Webanwendungen.",
+      "technologies": "Mein Haupt-Stack umfasst Angular, Vue, React, TypeScript, NgRx, Redux, TanStack Query, Vite, Next.js, Testing-Workflows, Komponentenbibliotheken und CI/CD-Praktiken.",
+      "languages": "Ich spreche Englisch, Deutsch, Persisch und ein wenig Türkisch.",
+      "location": "Ich lebe aktuell in Braunschweig, Deutschland.",
+      "react": "Ja. Ich habe mit React in Produktivprojekten gearbeitet, unter anderem in React- und Next.js-Anwendungen, um moderne Benutzeroberflächen zu entwickeln.",
+      "vue": "Ja. Ich habe mit Vue und Vue 3 gearbeitet, unter anderem bei der Integration von Vue 3 mit Vite und beim Aufbau sauberer, wartbarer Frontends.",
+      "angular": "Ja. Angular gehoert zu meinen staerksten Technologien. Ich habe intensiv damit gearbeitet und sogar Angular-11-Anwendungen auf Angular 15 migriert.",
+      "next": "Ja. Ich habe SSR-Anwendungen mit Next.js als Teil meiner Frontend-Arbeit entwickelt.",
+      "typescript": "Ja. TypeScript gehoert zu meinen Kernstaerken und ist ein zentraler Teil meines taeglichen Frontend-Stacks.",
+      "ngrx": "Ja. Ich habe praktische Erfahrung mit NgRx fuer State Management in Angular-Anwendungen.",
+      "redux": "Ja. Ich habe mit Redux im Rahmen skalierbarer Frontend-State-Management-Loesungen gearbeitet.",
+      "tanstack": "Ja. Ich habe Erfahrung mit TanStack Query als Teil meines modernen Frontend-Toolings.",
+      "vite": "Ja. Ich habe Vue 3 mit Vite integriert und moderne Tooling-Loesungen genutzt, um Performance und Developer Experience zu verbessern."
+    },
+    "fallback": "Dieses Thema ist noch nicht im Standard-Lebenslauf-Chat enthalten. Frage gerne nach meiner Erfahrung, Technologien, Sprachen oder meinem Standort."
+  },
   "aboutme": {
     "text": "Lerne Marzieh kennen – eine Frontend-Entwicklerin mit 6 Jahren Erfahrung darin, Ideen in schnelle, saubere und benutzerfreundliche Webanwendungen zu verwandeln. Sie arbeitet hauptsächlich mit Angular, Vue und React und liebt es, Interfaces zu bauen, die gut aussehen und sich noch besser anfühlen.\n\nSie hat sowohl in Startups als auch in größeren Unternehmen gearbeitet – in unterschiedlichen Branchen wie Fintech, Consulting und B2B-Plattformen. Auf diesem Weg hat sie Legacy-Code modernisiert, Performance verbessert und Produkte mitentwickelt, die von Hunderttausenden Nutzer*innen verwendet werden.\n\nDiese Website ist aktuell noch eine statische Version, aber sie lernt gerade Backend-Entwicklung, um die nächste Version zu einer vollständig dynamischen Webanwendung zu machen.",
     "title": "Über mich",
@@ -14,6 +50,7 @@
     "closing": "Jeden Tag möchte ich lernen, bauen und bedeutungsvolle digitale Erlebnisse schaffen."
   },
   "about": "Über mich",
+  "contact_label": "Kontaktiere mich",
   "contact": {
     "title": "Kontakt",
     "subtitle": "Du kannst mich jederzeit per E-Mail oder über soziale Netzwerke erreichen.",
